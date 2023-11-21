@@ -21,7 +21,7 @@ class ClientsResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?string $navigationGroup = 'Gestion des Clients';
-    public static ?string $navigationLabel = 'Clients';
+    public static ?string $navigationLabel = 'Mes Clients';
 
     public static function form(Form $form): Form
     {
